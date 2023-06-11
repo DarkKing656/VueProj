@@ -1,19 +1,15 @@
 <template>
   <v-app>
-    <v-app-bar
-        color="deep-purple accent-4"
-        dense
-        dark
-      >
-      
-      </v-app-bar>
+   <NavbarDef></NavbarDef>
   </v-app>
 </template>
 
 <script>
-
-
+import NavbarDef from '@/components/NavbarDef.vue'
 export default {
   name: 'App',
-};
+  components: {
+    NavbarDef
+  }
+}
 </script>
